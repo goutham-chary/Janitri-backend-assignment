@@ -39,16 +39,15 @@ cd &lt;repository-name&gt;</code></pre>
   
   <h2 id="assumptions--decisions">Assumptions & Decisions</h2>
   <ul>
-    <li><strong>Authentication:</strong> JWT is used for securing API endpoints.</li>
     <li><strong>Database:</strong> MongoDB is used as the primary database for storing all data.</li>
     <li><strong>Error Handling:</strong> Standardized error responses with proper HTTP status codes.</li>
     <li><strong>Data Validation:</strong> Handled using middleware to ensure clean input.</li>
-    <li><strong>Default Port:</strong> The application runs on port <code>3000</code> unless specified in <code>.env</code>.</li>
+    <li><strong>Default Port:</strong> The application runs on port <code>5000</code>.</li>
   </ul>
   
   <h2 id="api-documentation">API Documentation</h2>
   <h3>Base URL:</h3>
-  <p><code>http://localhost:3000</code></p>
+  <p><code>http://localhost:5000</code></p>
   <h3>Endpoints:</h3>
   <ul>
     <li><strong>Authentication</strong>
