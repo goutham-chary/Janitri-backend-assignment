@@ -28,19 +28,9 @@ cd &lt;repository-name&gt;</code></pre>
     <li><strong>Install dependencies:</strong>
       <pre><code>npm install</code></pre>
     </li>
-    <li><strong>Environment variables:</strong>
-      <p>Create a <code>.env</code> file in the root directory and add the following:</p>
-      <pre><code>PORT=3000
-MONGO_URI=&lt;your-mongodb-uri&gt;
-JWT_SECRET=&lt;your-secret-key&gt;</code></pre>
-    </li>
-    <li><strong>Start the MongoDB service:</strong>
-      <p>Ensure MongoDB is running locally or provide the correct <code>MONGO_URI</code> in the <code>.env</code> file.</p>
-      <pre><code>mongod --dbpath /path/to/data/db</code></pre>
-    </li>
     <li><strong>Run the server:</strong>
       <pre><code>npm start</code></pre>
-      <p>The server will run on <code>http://localhost:3000</code>.</p>
+      <p>The server will run on <code>http://localhost:5000</code>.</p>
     </li>
     <li><strong>Testing the API:</strong>
       <p>Use tools like Postman, cURL, or an integrated frontend.</p>
