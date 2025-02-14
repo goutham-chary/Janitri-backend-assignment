@@ -5,23 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project README</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 20px;
-    }
-    h1, h2, h3 {
-      color: #2c3e50;
-    }
-    pre {
-      background: #f4f4f4;
-      padding: 10px;
-      border-radius: 5px;
-      overflow-x: auto;
-    }
-  </style>
+  
 </head>
 <body>
   <h1>Project Title</h1>
@@ -118,7 +102,7 @@ JWT_SECRET=&lt;your-secret-key&gt;</code></pre>
       <pre><code>npm test</code></pre>
     </li>
     <li><strong>Known Issues:</strong> List any unresolved bugs or edge cases (if applicable).</li>
-    <li><strong>Contact:</strong> For questions or support, email <code>&lt;your-email&gt;</code> or create an issue on GitHub.</li>
+    <li><strong>Contact:</strong> For questions or support, email <code>&lt;gouthamchary00@gmail.com&gt;</code> or create an issue on GitHub.</li>
   </ul>
 </body>
 </html>
